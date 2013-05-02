@@ -12,12 +12,12 @@
 		CA020E6217326EF20037B963 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA020E6117326EF20037B963 /* CoreGraphics.framework */; };
 		CA020E6817326EF20037B963 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA020E6617326EF20037B963 /* InfoPlist.strings */; };
 		CA020E6A17326EF20037B963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA020E6917326EF20037B963 /* main.m */; };
-		CA020E6E17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA020E6D17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m */; };
 		CA020E7017326EF30037B963 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA020E6F17326EF30037B963 /* Default.png */; };
 		CA020E7217326EF30037B963 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA020E7117326EF30037B963 /* Default@2x.png */; };
 		CA020E7417326EF30037B963 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA020E7317326EF30037B963 /* Default-568h@2x.png */; };
-		CA020E7717326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA020E7617326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m */; };
 		CA020E7A17326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA020E7817326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.xib */; };
+		CA020E85173270A30037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA020E82173270A30037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m */; };
+		CA020E86173270A30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA020E84173270A30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +29,14 @@
 		CA020E6717326EF20037B963 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA020E6917326EF20037B963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA020E6B17326EF20037B963 /* UIScrollView_UIPageControl_UIButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView_UIPageControl_UIButton-Prefix.pch"; sourceTree = "<group>"; };
-		CA020E6C17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrollView_UIPageControl_UIButtonAppDelegate.h; sourceTree = "<group>"; };
-		CA020E6D17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_UIPageControl_UIButtonAppDelegate.m; sourceTree = "<group>"; };
 		CA020E6F17326EF30037B963 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CA020E7117326EF30037B963 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CA020E7317326EF30037B963 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CA020E7517326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrollView_UIPageControl_UIButtonViewController.h; sourceTree = "<group>"; };
-		CA020E7617326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_UIPageControl_UIButtonViewController.m; sourceTree = "<group>"; };
 		CA020E7917326EF30037B963 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIScrollView_UIPageControl_UIButtonViewController.xib; sourceTree = "<group>"; };
+		CA020E81173270A30037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollView_UIPageControl_UIButtonAppDelegate.h; sourceTree = "<group>"; };
+		CA020E82173270A30037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_UIPageControl_UIButtonAppDelegate.m; sourceTree = "<group>"; };
+		CA020E83173270A30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollView_UIPageControl_UIButtonViewController.h; sourceTree = "<group>"; };
+		CA020E84173270A30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_UIPageControl_UIButtonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,9 @@
 		CA020E4E17326EF20037B963 = {
 			isa = PBXGroup;
 			children = (
-				CA020E6317326EF20037B963 /* UIScrollView_UIPageControl_UIButton */,
+				CA020E80173270A30037B963 /* Classes */,
+				CA020E6317326EF20037B963 /* Resourses */,
+				CA020E6417326EF20037B963 /* Supporting Files */,
 				CA020E5C17326EF20037B963 /* Frameworks */,
 				CA020E5A17326EF20037B963 /* Products */,
 			);
@@ -80,16 +82,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA020E6317326EF20037B963 /* UIScrollView_UIPageControl_UIButton */ = {
+		CA020E6317326EF20037B963 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
-				CA020E6C17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.h */,
-				CA020E6D17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m */,
-				CA020E7517326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.h */,
-				CA020E7617326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m */,
 				CA020E7817326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.xib */,
-				CA020E6417326EF20037B963 /* Supporting Files */,
 			);
+			name = Resourses;
 			path = UIScrollView_UIPageControl_UIButton;
 			sourceTree = "<group>";
 		};
@@ -105,6 +103,18 @@
 				CA020E7317326EF30037B963 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = UIScrollView_UIPageControl_UIButton;
+			sourceTree = "<group>";
+		};
+		CA020E80173270A30037B963 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA020E81173270A30037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.h */,
+				CA020E82173270A30037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m */,
+				CA020E83173270A30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.h */,
+				CA020E84173270A30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,8 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA020E6A17326EF20037B963 /* main.m in Sources */,
-				CA020E6E17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m in Sources */,
-				CA020E7717326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m in Sources */,
+				CA020E85173270A30037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m in Sources */,
+				CA020E86173270A30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
