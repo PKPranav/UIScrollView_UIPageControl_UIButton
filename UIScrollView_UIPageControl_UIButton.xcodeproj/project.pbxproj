@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA020E5E17326EF20037B963 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA020E5D17326EF20037B963 /* UIKit.framework */; };
+		CA020E6017326EF20037B963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA020E5F17326EF20037B963 /* Foundation.framework */; };
+		CA020E6217326EF20037B963 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA020E6117326EF20037B963 /* CoreGraphics.framework */; };
+		CA020E6817326EF20037B963 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA020E6617326EF20037B963 /* InfoPlist.strings */; };
+		CA020E6A17326EF20037B963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA020E6917326EF20037B963 /* main.m */; };
+		CA020E6E17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA020E6D17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m */; };
+		CA020E7017326EF30037B963 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA020E6F17326EF30037B963 /* Default.png */; };
+		CA020E7217326EF30037B963 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA020E7117326EF30037B963 /* Default@2x.png */; };
+		CA020E7417326EF30037B963 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA020E7317326EF30037B963 /* Default-568h@2x.png */; };
+		CA020E7717326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA020E7617326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m */; };
+		CA020E7A17326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA020E7817326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA020E5917326EF20037B963 /* UIScrollView_UIPageControl_UIButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollView_UIPageControl_UIButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA020E5D17326EF20037B963 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA020E5F17326EF20037B963 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA020E6117326EF20037B963 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA020E6517326EF20037B963 /* UIScrollView_UIPageControl_UIButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIScrollView_UIPageControl_UIButton-Info.plist"; sourceTree = "<group>"; };
+		CA020E6717326EF20037B963 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA020E6917326EF20037B963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA020E6B17326EF20037B963 /* UIScrollView_UIPageControl_UIButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView_UIPageControl_UIButton-Prefix.pch"; sourceTree = "<group>"; };
+		CA020E6C17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrollView_UIPageControl_UIButtonAppDelegate.h; sourceTree = "<group>"; };
+		CA020E6D17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_UIPageControl_UIButtonAppDelegate.m; sourceTree = "<group>"; };
+		CA020E6F17326EF30037B963 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA020E7117326EF30037B963 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA020E7317326EF30037B963 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA020E7517326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrollView_UIPageControl_UIButtonViewController.h; sourceTree = "<group>"; };
+		CA020E7617326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_UIPageControl_UIButtonViewController.m; sourceTree = "<group>"; };
+		CA020E7917326EF30037B963 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIScrollView_UIPageControl_UIButtonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA020E5617326EF20037B963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA020E5E17326EF20037B963 /* UIKit.framework in Frameworks */,
+				CA020E6017326EF20037B963 /* Foundation.framework in Frameworks */,
+				CA020E6217326EF20037B963 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA020E4E17326EF20037B963 = {
+			isa = PBXGroup;
+			children = (
+				CA020E6317326EF20037B963 /* UIScrollView_UIPageControl_UIButton */,
+				CA020E5C17326EF20037B963 /* Frameworks */,
+				CA020E5A17326EF20037B963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA020E5A17326EF20037B963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA020E5917326EF20037B963 /* UIScrollView_UIPageControl_UIButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA020E5C17326EF20037B963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA020E5D17326EF20037B963 /* UIKit.framework */,
+				CA020E5F17326EF20037B963 /* Foundation.framework */,
+				CA020E6117326EF20037B963 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA020E6317326EF20037B963 /* UIScrollView_UIPageControl_UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				CA020E6C17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.h */,
+				CA020E6D17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m */,
+				CA020E7517326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.h */,
+				CA020E7617326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m */,
+				CA020E7817326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.xib */,
+				CA020E6417326EF20037B963 /* Supporting Files */,
+			);
+			path = UIScrollView_UIPageControl_UIButton;
+			sourceTree = "<group>";
+		};
+		CA020E6417326EF20037B963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA020E6517326EF20037B963 /* UIScrollView_UIPageControl_UIButton-Info.plist */,
+				CA020E6617326EF20037B963 /* InfoPlist.strings */,
+				CA020E6917326EF20037B963 /* main.m */,
+				CA020E6B17326EF20037B963 /* UIScrollView_UIPageControl_UIButton-Prefix.pch */,
+				CA020E6F17326EF30037B963 /* Default.png */,
+				CA020E7117326EF30037B963 /* Default@2x.png */,
+				CA020E7317326EF30037B963 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA020E5817326EF20037B963 /* UIScrollView_UIPageControl_UIButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA020E7D17326EF30037B963 /* Build configuration list for PBXNativeTarget "UIScrollView_UIPageControl_UIButton" */;
+			buildPhases = (
+				CA020E5517326EF20037B963 /* Sources */,
+				CA020E5617326EF20037B963 /* Frameworks */,
+				CA020E5717326EF20037B963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIScrollView_UIPageControl_UIButton;
+			productName = UIScrollView_UIPageControl_UIButton;
+			productReference = CA020E5917326EF20037B963 /* UIScrollView_UIPageControl_UIButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA020E5017326EF20037B963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UIScrollView_UIPageControl_UIButton;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = AppStudioz;
+			};
+			buildConfigurationList = CA020E5317326EF20037B963 /* Build configuration list for PBXProject "UIScrollView_UIPageControl_UIButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA020E4E17326EF20037B963;
+			productRefGroup = CA020E5A17326EF20037B963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA020E5817326EF20037B963 /* UIScrollView_UIPageControl_UIButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA020E5717326EF20037B963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA020E6817326EF20037B963 /* InfoPlist.strings in Resources */,
+				CA020E7017326EF30037B963 /* Default.png in Resources */,
+				CA020E7217326EF30037B963 /* Default@2x.png in Resources */,
+				CA020E7417326EF30037B963 /* Default-568h@2x.png in Resources */,
+				CA020E7A17326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA020E5517326EF20037B963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA020E6A17326EF20037B963 /* main.m in Sources */,
+				CA020E6E17326EF20037B963 /* UIScrollView_UIPageControl_UIButtonAppDelegate.m in Sources */,
+				CA020E7717326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA020E6617326EF20037B963 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA020E6717326EF20037B963 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA020E7817326EF30037B963 /* UIScrollView_UIPageControl_UIButtonViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA020E7917326EF30037B963 /* en */,
+			);
+			name = UIScrollView_UIPageControl_UIButtonViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA020E7B17326EF30037B963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA020E7C17326EF30037B963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA020E7E17326EF30037B963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIScrollView_UIPageControl_UIButton/UIScrollView_UIPageControl_UIButton-Prefix.pch";
+				INFOPLIST_FILE = "UIScrollView_UIPageControl_UIButton/UIScrollView_UIPageControl_UIButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA020E7F17326EF30037B963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIScrollView_UIPageControl_UIButton/UIScrollView_UIPageControl_UIButton-Prefix.pch";
+				INFOPLIST_FILE = "UIScrollView_UIPageControl_UIButton/UIScrollView_UIPageControl_UIButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA020E5317326EF20037B963 /* Build configuration list for PBXProject "UIScrollView_UIPageControl_UIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA020E7B17326EF30037B963 /* Debug */,
+				CA020E7C17326EF30037B963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA020E7D17326EF30037B963 /* Build configuration list for PBXNativeTarget "UIScrollView_UIPageControl_UIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA020E7E17326EF30037B963 /* Debug */,
+				CA020E7F17326EF30037B963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA020E5017326EF20037B963 /* Project object */;
+}
